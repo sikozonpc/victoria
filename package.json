@@ -13,8 +13,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "start-storybook -p 9001",
-    "lint": "eslint --fix --report-unused-disable-directives . && echo 'Lint complete.'",
-    "pretty": "prettier --check 'lib/**/*.js'"
+    "lint": "eslint --fix --report-unused-disable-directives . && echo 'Lint complete.'"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -25,7 +24,6 @@
     "@storybook/react": "^5.2.1",
     "babel-loader": "^8.0.6",
     "eslint": "^6.4.0",
-    "eslint-config-prettier": "^6.3.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
@@ -34,7 +32,6 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.1.0",
     "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.18.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
