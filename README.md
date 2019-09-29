@@ -1,6 +1,18 @@
 # Victoria
 
-> WIP System design for React, built with acessability and flexability in mind.
+<div align="center">
+    <img alt="styled-components" src="./victoria-logo.png" height="150px" />
+</div>
+
+<br />
+
+<div align="center">
+  <strong>✨(WIP) React Component design system built with acessability and flexability in mind ✨.</strong>
+  <br />
+  <br />
+</div>
+
+<br />
 
 ## Development
 
