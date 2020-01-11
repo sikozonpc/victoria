@@ -1,5 +1,3 @@
-# Victoria
-
 <div align="center">
     <img alt="styled-components" src="./victoria-logo.png" height="150px" />
 </div>
