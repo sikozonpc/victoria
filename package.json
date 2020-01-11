@@ -1,8 +1,7 @@
 {
-  "name": "victoria",
-  "version": "0.0.1",
+  "name": "victoria-react",
+  "version": "0.0.2",
   "description": "Victoria design system built with React",
-  "main": "index.js",
   "author": "Tiago Taquelim (sikozonpc)",
   "keywords": [
     "design system",
@@ -10,16 +9,24 @@
     "react library",
     "react"
   ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "license": "MIT",
   "scripts": {
     "dev": "start-storybook -p 9001",
-    "lint": "eslint --fix --report-unused-disable-directives . && echo 'Lint complete.'"
+    "lint": "eslint --fix --report-unused-disable-directives . && echo 'Lint complete.'",
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "devDependencies": {
-    "@babel/core": "7.6.2",
-    "@babel/plugin-transform-runtime": "7.6.2",
-    "@babel/preset-env": "7.6.2",
-    "@babel/preset-react": "7.0.0",
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "7.7.7",
+    "@babel/plugin-transform-runtime": "7.7.6",
+    "@babel/preset-env": "7.7.7",
+    "@babel/preset-react": "7.7.4",
     "@storybook/addon-options": "5.2.1",
     "@storybook/react": "5.2.1",
     "babel-loader": "8.0.6",
